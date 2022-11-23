@@ -1,24 +1,5 @@
 @use "../../styles/typography" as *;
 
-.logo-ctner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-
-  .logo-img {
-    height: 4rem;
-    width: 3rem;
-  }
-  .logo-name {
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    padding-top: 1rem;
-    font-family: $font-main;
-  }
-}
-
 .information {
   display: flex;
   padding: 15rem;

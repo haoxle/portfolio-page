@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem 5rem 3rem 5rem;
+  margin: 5rem;
+  background-color: #8ecae6;
+
+  .profile_picture {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+  }
+  .profile_description {
+    padding: 2rem;
+  }
+}
