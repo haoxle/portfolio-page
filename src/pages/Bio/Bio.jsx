@@ -29,14 +29,23 @@ const Bio = () => {
         </p>
       </div>
       <div className="hobbies">
-        <div>
-          <img className="hobbies-image" src={candle} alt="candle" />
+        <div className="container">
+          <img className="container__image" src={candle} alt="candle" />
         </div>
-        <div>
-          <img className="hobbies-image" src={pottery} alt="pottery" />
+        <div className="container">
+          <img className="container__image" src={pottery} alt="pottery" />
+          <div className="container__text">
+            <div className="container__text--info">
+              I got into pottery shortly after the lockdown. I've always wanted
+              to try my hand on throwing on the wheel but was too afraid in
+              going alone. One day I built enough courage and never regretted
+              it. I was able to learn so many skills, especially patience and
+              have build such a good friendship in the pottery community.
+            </div>
+          </div>
         </div>
-        <div>
-          <img className="hobbies-image" src={embroidery} alt="embroidery" />
+        <div className="container">
+          <img className="container__image" src={embroidery} alt="embroidery" />
         </div>
       </div>
     </>
