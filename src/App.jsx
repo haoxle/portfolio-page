@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Bio from "./pages/Bio/Bio";
 import Projects from "./pages/Projects/Projects";
-import Hobbies from "./pages/Hobbies/Hobbies";
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
 import Contact from "./pages/Contact/Contact";
@@ -36,15 +35,6 @@ function App() {
           <>
             <Logo />
             <Projects />
-          </>
-        }
-      />
-      <Route
-        path="/hobbies"
-        element={
-          <>
-            <Logo />
-            <Hobbies />
           </>
         }
       />

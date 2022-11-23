@@ -4,19 +4,30 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 3rem 5rem 3rem 5rem;
-  margin: 5rem;
+  margin: 2rem;
   background-color: #8ecae6;
 
   .profile_picture {
     height: 15rem;
     width: 15rem;
     border-radius: 2rem;
+    align-self: center;
   }
   .profile_description {
     padding: 1rem 2rem 1rem 2rem;
-    font-family: $font-tertiary;
-    font-size: 1.25rem;
-    letter-spacing: 0.2rem;
-    font-weight: 400;
+    font-family: $font-secondary;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+}
+.hobbies {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  .hobbies-image {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
   }
 }

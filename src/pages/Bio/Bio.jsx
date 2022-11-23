@@ -1,5 +1,9 @@
 import "./Bio.scss";
 import profile from "../../assets/profile.jpg";
+import pottery from "../../assets/pottery.jpg";
+import candle from "../../assets/candle.jpg";
+import embroidery from "../../assets/embroidery.jpg";
+
 const Bio = () => {
   return (
     <>
@@ -20,9 +24,20 @@ const Bio = () => {
           finding smart ways to solve problems. At the time I was looking to
           change careers, and the decision to pursue developing was
           straightforward. Shortly after, I was recruited by _nology. Through
-          _nology robust training program, I was able to produce various
+          _nology's robust training program, I was able to produce various
           projects which can be seen on my projects page.
         </p>
+      </div>
+      <div className="hobbies">
+        <div>
+          <img className="hobbies-image" src={candle} alt="candle" />
+        </div>
+        <div>
+          <img className="hobbies-image" src={pottery} alt="pottery" />
+        </div>
+        <div>
+          <img className="hobbies-image" src={embroidery} alt="embroidery" />
+        </div>
       </div>
     </>
   );
