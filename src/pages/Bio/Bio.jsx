@@ -3,6 +3,9 @@ import profile from "../../assets/profile.jpg";
 import pottery from "../../assets/pottery.jpg";
 import candle from "../../assets/candle.jpg";
 import embroidery from "../../assets/embroidery.jpg";
+import kayak from "../../assets/kayak.jpg";
+import baking from "../../assets/baking.JPG";
+import museum from "../../assets/museum.jpg";
 
 const Bio = () => {
   return (
@@ -28,7 +31,9 @@ const Bio = () => {
           projects which can be seen on my projects page.
         </p>
       </div>
-      <h1 className="extracuricular">Extracuricular</h1>
+      <div className="extracuricular">
+        <h1 className="extracuricular__title">Hobbies</h1>
+      </div>
       <div className="hobbies">
         <div className="container">
           <img className="container__image" src={candle} alt="candle" />
@@ -57,6 +62,39 @@ const Bio = () => {
         </div>
         <div className="container">
           <img className="container__image" src={embroidery} alt="embroidery" />
+          <div className="container__text">
+            <div className="container__text--info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
+              natus animi, ea accusamus, laboriosam suscipit molestias eum id
+              consequatur sit?
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <img className="container__image" src={kayak} alt="embroidery" />
+          <div className="container__text">
+            <div className="container__text--info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
+              natus animi, ea accusamus, laboriosam suscipit molestias eum id
+              consequatur sit?
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <img className="container__image" src={museum} alt="embroidery" />
+          <div className="container__text">
+            <div className="container__text--info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
+              natus animi, ea accusamus, laboriosam suscipit molestias eum id
+              consequatur sit?
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <img className="container__image" src={baking} alt="embroidery" />
           <div className="container__text">
             <div className="container__text--info">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
