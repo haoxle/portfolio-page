@@ -5,7 +5,8 @@
   justify-content: space-between;
   padding: 3rem 5rem 3rem 5rem;
   margin: 2rem 4rem 2rem 4rem;
-  background-color: #8ecae6;
+  background-color: #ddb76a;
+  border-radius: 2rem 0 2rem 0;
 
   .profile_picture {
     height: 15rem;
@@ -18,6 +19,7 @@
     font-family: $font-secondary;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
+    background-color: transparent;
   }
 }
 .extracuricular {
@@ -57,12 +59,16 @@
       left: 12.5rem;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-40%, -50%);
+      background-color: transparent;
+
       text-align: center;
       .container__text--info {
         color: black;
         font-size: 1.5rem;
         width: 17rem;
         height: 14rem;
+        background-color: none;
+        background-color: transparent;
       }
     }
   }

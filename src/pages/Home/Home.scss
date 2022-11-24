@@ -2,7 +2,10 @@
 
 .information {
   display: flex;
-  padding: 15rem;
+  padding: 9rem;
   justify-content: space-around;
   align-items: center;
+  font-family: $font-secondary;
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
 }

@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+
+  background-color: #f2dfb4;
 }
 
 a:active {
@@ -11,4 +13,8 @@ a:active {
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color: #be5109;
 }
