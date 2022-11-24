@@ -1,16 +1,11 @@
 import "./Home.scss";
-import { NavLink } from "react-router-dom";
-
+import homecandle from "../../assets/homecandle.jpg";
 const Home = () => {
   return (
     <>
-      <div className="information">
-        <NavLink to={"/about"}>About</NavLink>
-        <NavLink to={"/projects"}>Projects</NavLink>
-        <NavLink to={"/skills"}>Skills</NavLink>
-        <NavLink to={"/experience"}>Experience</NavLink>
-        <NavLink to={"/contact"}>Contact</NavLink>
-      </div>
+      <div className="home-container">
+        <img className="home-candle" src={homecandle} alt="candle" />
+      </div>{" "}
     </>
   );
 };

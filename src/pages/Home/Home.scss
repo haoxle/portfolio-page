@@ -1,11 +1,11 @@
-@use "../../styles/typography" as *;
-
-.information {
+.home-container {
   display: flex;
-  padding: 9rem;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  font-family: $font-secondary;
-  font-size: 1.5rem;
-  letter-spacing: 0.15rem;
+  margin-top: 5rem;
+  .home-candle {
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+  }
 }

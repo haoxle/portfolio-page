@@ -3,9 +3,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 5rem 3rem 5rem;
-  margin: 2rem 4rem 2rem 4rem;
-  background-color: #ddb76a;
+  padding: 2rem 4rem 2rem 4rem;
+  margin: 4rem 4rem 2rem 4rem;
+  background-color: #bcd8c1;
   border-radius: 2rem 0 2rem 0;
 
   .profile_picture {
@@ -15,11 +15,14 @@
     align-self: center;
   }
   .profile_description {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 4rem;
     font-family: $font-secondary;
     font-size: 1.2rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     background-color: transparent;
+    color: #545e56;
+    text-align: justify;
+    word-spacing: 0.5rem;
   }
 }
 .extracuricular {

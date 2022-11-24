@@ -1,3 +1,58 @@
+@use "../../styles/typography" as *;
+.project {
+  display: flex;
+  margin: 7rem;
+  .image-container__image {
+    height: 15rem;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .image-container__image:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  .project-contents {
+    // align-self: center;
+    width: 20rem;
+    .project-name {
+      font-family: $font-main;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      padding: 0.5rem 0rem 0.7rem 2rem;
+    }
+    .project-information {
+      font-family: $font-secondary;
+      font-size: 1rem;
+      background-color: #a76d60;
+      margin: 0 0 0.7rem -4rem;
+      padding: 1rem 1.5rem;
+      color: white;
+      position: relative;
+      z-index: 999;
+      border-radius: 0 3rem 3rem 0;
+      text-align: justify;
+    }
+  }
+  .skills-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -2rem;
+    position: relative;
+    z-index: 999;
+    background-color: transparent;
+    width: auto;
+    height: 2.5rem;
+    .skills-image {
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
+      background-color: transparent;
+    }
+  }
+}
+
 .skills-image {
   height: 2rem;
   width: 2rem;
