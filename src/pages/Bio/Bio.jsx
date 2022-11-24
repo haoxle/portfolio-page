@@ -40,10 +40,8 @@ const Bio = () => {
           <div className="container__text--info">
             <div className="container__text">
               <div className="container__text--info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                eveniet. Harum repudiandae et quaerat eligendi iure vero quam
-                unde natus animi, ea accusamus, laboriosam suscipit molestias
-                eum id consequatur sit?
+                I started a candle business promoting in mental health and
+                emotional wellbeing.
               </div>
             </div>
           </div>
@@ -53,10 +51,9 @@ const Bio = () => {
           <div className="container__text">
             <div className="container__text--info">
               I got into pottery shortly after the lockdown. I've always wanted
-              to try my hand on throwing on the wheel but was too afraid in
-              going alone. One day I built enough courage and never regretted
-              it. I was able to learn so many skills, especially patience and
-              have build such a good friendship in the pottery community.
+              to try my hand on throwing on the wheel but was too afraid to go
+              alone. One day I built enough courage to go solo and never
+              regretted it!
             </div>
           </div>
         </div>
@@ -64,10 +61,8 @@ const Bio = () => {
           <img className="container__image" src={embroidery} alt="embroidery" />
           <div className="container__text">
             <div className="container__text--info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
-              natus animi, ea accusamus, laboriosam suscipit molestias eum id
-              consequatur sit?
+              I am not much of a painter but i wanted to create visual art. I
+              was actually inspired through a show!
             </div>
           </div>
         </div>
@@ -75,10 +70,8 @@ const Bio = () => {
           <img className="container__image" src={kayak} alt="embroidery" />
           <div className="container__text">
             <div className="container__text--info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
-              natus animi, ea accusamus, laboriosam suscipit molestias eum id
-              consequatur sit?
+              I love staying active, I regularly go gym, practice muay thai and
+              play badminton. I recently got into kayaking!
             </div>
           </div>
         </div>
@@ -86,10 +79,8 @@ const Bio = () => {
           <img className="container__image" src={museum} alt="embroidery" />
           <div className="container__text">
             <div className="container__text--info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
-              natus animi, ea accusamus, laboriosam suscipit molestias eum id
-              consequatur sit?
+              I enjoy going to a lights museum, especially ones that are
+              interactive. My favourite was the Lux lights exhibition.
             </div>
           </div>
         </div>
@@ -97,10 +88,8 @@ const Bio = () => {
           <img className="container__image" src={baking} alt="embroidery" />
           <div className="container__text">
             <div className="container__text--info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
-              natus animi, ea accusamus, laboriosam suscipit molestias eum id
-              consequatur sit?
+              I enjoy cooking and baking, it's always nice seeing that "ooh"
+              reaction from your friends and family.
             </div>
           </div>
         </div>
