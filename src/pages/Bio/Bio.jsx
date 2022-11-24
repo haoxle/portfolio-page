@@ -28,9 +28,20 @@ const Bio = () => {
           projects which can be seen on my projects page.
         </p>
       </div>
+      <h1 className="extracuricular">Extracuricular</h1>
       <div className="hobbies">
         <div className="container">
           <img className="container__image" src={candle} alt="candle" />
+          <div className="container__text--info">
+            <div className="container__text">
+              <div className="container__text--info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                eveniet. Harum repudiandae et quaerat eligendi iure vero quam
+                unde natus animi, ea accusamus, laboriosam suscipit molestias
+                eum id consequatur sit?
+              </div>
+            </div>
+          </div>
         </div>
         <div className="container">
           <img className="container__image" src={pottery} alt="pottery" />
@@ -46,6 +57,14 @@ const Bio = () => {
         </div>
         <div className="container">
           <img className="container__image" src={embroidery} alt="embroidery" />
+          <div className="container__text">
+            <div className="container__text--info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              eveniet. Harum repudiandae et quaerat eligendi iure vero quam unde
+              natus animi, ea accusamus, laboriosam suscipit molestias eum id
+              consequatur sit?
+            </div>
+          </div>
         </div>
       </div>
     </>
