@@ -4,13 +4,14 @@ import figma from "../../assets/logos/figma.png";
 import github from "../../assets/logos/github.png";
 import html from "../../assets/logos/html.png";
 import java from "../../assets/logos/java.png";
+import firebase from "../../assets/logos/firebase.png";
 import javascript from "../../assets/logos/javascript.png";
 import react from "../../assets/logos/react.png";
 import sass from "../../assets/logos/sass.png";
 import jest from "../../assets/logos/jest.png";
-
 // import springboot from "../../assets/logos/springboot.png";
 import punk from "../../assets/punk.png";
+import synergy from "../../assets/synergy.png";
 import maple from "../../assets/maple.png";
 import calculator from "../../assets/calculator.png";
 import hangman from "../../assets/hangman.png";
@@ -18,6 +19,41 @@ import hangman from "../../assets/hangman.png";
 const Projects = () => {
   return (
     <>
+      <section>
+        <div className="left">
+          <div className="left-project">
+            <a
+              href="https://quadra-client-project.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="left-project__image"
+                src={synergy}
+                alt="Synergy"
+                rel="noreferrer"
+              />
+            </a>
+          </div>
+          <div className="left-contents">
+            <h1 className="left-name">Currency Converter</h1>
+            <p className="left-info">
+              Participated in a client project with a team of trainee software
+              engineers. During this project we focused on agile working where I
+              was a PM during a sprint. I focused on firebase, working with the
+              API and designed web pages as per designs received via figma.
+            </p>
+            <div className="left-skills">
+              <img className="skills-image" src={figma} alt="figma" />
+              <img className="skills-image" src={github} alt="github" />
+              <img className="skills-image" src={javascript} alt="javascript" />
+              <img className="skills-image" src={react} alt="react" />
+              <img className="skills-image" src={sass} alt="sass" />
+              <img className="skills-image" src={firebase} alt="firebase" />
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="right">
           <div className="right-contents">
@@ -29,12 +65,15 @@ const Projects = () => {
             </p>
             <div className="right-skills">
               <img className="skills-image" src={java} alt="java" />
-              <img className="skills-image" src={jest} alt="jest" />
               <img className="skills-image" src={github} alt="github" />
             </div>
           </div>
           <div className="right-project">
-            <a href="https://github.com/haoxle/Hangman" target="_blank">
+            <a
+              href="https://github.com/haoxle/Hangman"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="right-project__image"
                 src={hangman}
@@ -47,7 +86,11 @@ const Projects = () => {
       <section>
         <div className="left">
           <div className="left-project">
-            <a href="https://haoxle.github.io/PunkApi/" target="_blank">
+            <a
+              href="https://haoxle.github.io/PunkApi/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="left-project__image" src={punk} alt="PunkApi" />
             </a>
           </div>
@@ -65,6 +108,7 @@ const Projects = () => {
               <img className="skills-image" src={javascript} alt="javascript" />
               <img className="skills-image" src={react} alt="react" />
               <img className="skills-image" src={sass} alt="sass" />
+              <img className="skills-image" src={jest} alt="jest" />
             </div>
           </div>
         </div>
@@ -88,7 +132,11 @@ const Projects = () => {
             </div>
           </div>
           <div className="right-project">
-            <a href="https://haoxle.github.io/MapleMaze/" target="_blank">
+            <a
+              href="https://haoxle.github.io/MapleMaze/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="right-project__image"
                 src={maple}
@@ -104,6 +152,7 @@ const Projects = () => {
             <a
               href="https://haoxle.github.io/CalculatorProject/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="left-project__image"
