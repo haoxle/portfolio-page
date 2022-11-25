@@ -1,27 +1,26 @@
 @use "../../styles/typography" as *;
-.project {
+.left {
   display: flex;
-  margin: 7rem;
-  .image-container__image {
+  margin: 8rem 7rem 7rem 7rem;
+  .left-project__image {
     height: 15rem;
     opacity: 0.5;
     z-index: 1;
     transition: 0.5s;
   }
-  .image-container__image:hover {
+  .left-project__image:hover {
     opacity: 1;
     transition: 0.5s;
   }
-  .project-contents {
-    // align-self: center;
+  .left-contents {
     width: 20rem;
-    .project-name {
+    .left-name {
       font-family: $font-main;
       font-size: 1.5rem;
       letter-spacing: 0.1rem;
       padding: 0.5rem 0rem 0.7rem 2rem;
     }
-    .project-information {
+    .left-info {
       font-family: $font-secondary;
       font-size: 1rem;
       background-color: #a76d60;
@@ -34,7 +33,7 @@
       text-align: justify;
     }
   }
-  .skills-container {
+  .left-skills {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,7 +52,56 @@
   }
 }
 
-.skills-image {
-  height: 2rem;
-  width: 2rem;
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 7rem;
+  .right-project__image {
+    height: 13rem;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .right-project__image:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  .right-contents {
+    width: 20rem;
+    .right-name {
+      font-family: $font-main;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      padding: 0.5rem 0rem 0.7rem 10rem;
+    }
+    .right-info {
+      font-family: $font-secondary;
+      font-size: 1rem;
+      background-color: #a76d60;
+      margin: 0 -2.5rem 0.7rem -3rem;
+      padding: 1rem 1.5rem;
+      color: white;
+      position: relative;
+      z-index: 999;
+      border-radius: 3rem 0 0 3rem;
+      text-align: justify;
+    }
+  }
+  .right-skills {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -2rem;
+    position: relative;
+    z-index: 999;
+    background-color: transparent;
+    width: auto;
+    height: 2.5rem;
+    .skills-image {
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
+      background-color: transparent;
+    }
+  }
 }
