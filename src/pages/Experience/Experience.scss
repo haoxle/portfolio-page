@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+
   .work {
     padding: 2rem;
     margin: 1rem 1rem 2rem 1rem;
@@ -14,6 +18,7 @@
     background-color: #545e56;
     height: 15rem;
     width: 15rem;
+
     .work__title {
       background-color: #545e56;
       color: #fffdf2;
@@ -36,9 +41,38 @@
       font-size: 0.8rem;
     }
   }
-
   .work:hover {
     opacity: 0;
-    transition: 1s;
+    transition: 0.5s;
+  }
+}
+
+.experience2 {
+  margin: 3rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: transparent;
+  z-index: 0;
+
+  .description {
+    padding: 2rem;
+    margin: 1rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #a76d60;
+    height: 15rem;
+    width: 15rem;
+  }
+  .work__desc {
+    background-color: #a76d60;
+    color: #fffdf2;
+    font-family: $font-main;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    height: 100%;
   }
 }

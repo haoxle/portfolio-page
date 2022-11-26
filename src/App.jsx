@@ -6,8 +6,9 @@ import Bio from "./pages/Bio/Bio";
 import Projects from "./pages/Projects/Projects";
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
-import Contact from "./pages/Contact/Contact";
+// import Contact from "./pages/Contact/Contact";
 import Logo from "./components/Logo/Logo";
+import ShowButtonHover from "./pages/Test/Test";
 function App() {
   return (
     <Routes>
@@ -61,7 +62,7 @@ function App() {
         element={
           <>
             <Logo />
-            <Contact />
+            <ShowButtonHover />
           </>
         }
       />
