@@ -1,11 +1,52 @@
+@use "../../styles/typography" as *;
 .home-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 5rem;
-  .home-candle {
+
+  .home-pic {
     height: 25rem;
     width: 25rem;
     object-fit: cover;
+    border-radius: 15rem;
+    animation: expand 0.8s ease forwards;
+  }
+  .home-contents {
+    padding: 1rem;
+    animation: slideUp 1s ease forwards;
+
+    &__title {
+      font-size: 3rem;
+      font-family: $font-secondary;
+      width: 27rem;
+      height: 3.5rem;
+    }
+    &__jobs {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      font-family: $font-secondary;
+    }
+    &__slogan {
+      font-size: 1rem;
+      font-family: $font-secondary;
+    }
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
