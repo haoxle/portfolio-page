@@ -1,13 +1,20 @@
 import "./Bio.scss";
 import profile from "../../assets/profile.jpg";
-import pottery from "../../assets/pottery.jpg";
-import candle from "../../assets/candle.jpg";
-import embroidery from "../../assets/embroidery.jpg";
-import kayak from "../../assets/kayak.jpg";
-import baking from "../../assets/baking.JPG";
-import museum from "../../assets/museum.jpg";
+import { hobbies } from "../../data/hobbies";
 
 const Bio = () => {
+  const hobby = hobbies.map((activity, i) => {
+    return (
+      <div className="container" key={i + activity.name}>
+        <img className="container__image" src={activity.src} alt="candle" />
+        <div className="container__text--info">
+          <div className="container__text">
+            <div className="container__text--info">{activity.info}</div>
+          </div>
+        </div>
+      </div>
+    );
+  });
   return (
     <>
       <div className="profile">
@@ -34,66 +41,7 @@ const Bio = () => {
       <div className="extracuricular">
         <h1 className="extracuricular__title">Hobbies</h1>
       </div>
-      <div className="hobbies">
-        <div className="container">
-          <img className="container__image" src={candle} alt="candle" />
-          <div className="container__text--info">
-            <div className="container__text">
-              <div className="container__text--info">
-                I started a candle business promoting in mental health and
-                emotional wellbeing.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <img className="container__image" src={pottery} alt="pottery" />
-          <div className="container__text">
-            <div className="container__text--info">
-              I got into pottery shortly after the lockdown. I've always wanted
-              to try my hand on throwing on the wheel but was too afraid to go
-              alone. One day I built enough courage to go solo and never
-              regretted it!
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <img className="container__image" src={embroidery} alt="embroidery" />
-          <div className="container__text">
-            <div className="container__text--info">
-              I am not much of a painter but i wanted to create visual art. I
-              was actually inspired through a show!
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <img className="container__image" src={kayak} alt="embroidery" />
-          <div className="container__text">
-            <div className="container__text--info">
-              I love staying active, I regularly go gym, practice muay thai and
-              play badminton. I recently got into kayaking!
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <img className="container__image" src={museum} alt="embroidery" />
-          <div className="container__text">
-            <div className="container__text--info">
-              I enjoy going to a lights museum, especially ones that are
-              interactive. My favourite was the Lux lights exhibition.
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <img className="container__image" src={baking} alt="embroidery" />
-          <div className="container__text">
-            <div className="container__text--info">
-              I enjoy cooking and baking, it's always nice seeing that "ooh"
-              reaction from your friends and family.
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="hobbies">{hobby}</div>
     </>
   );
 };
