@@ -12,7 +12,7 @@
     width: 3rem;
   }
   .logo-name {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     letter-spacing: 0.2rem;
     padding-top: 1rem;
     font-family: $font-main;
@@ -28,9 +28,72 @@
   align-items: center;
   font-family: $font-main;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.15rem;
   .links {
-    margin: 0 0.7rem;
+    margin: 0 0.9rem;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .logo-ctner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+
+    .logo-img {
+      height: 4rem;
+      width: 3rem;
+    }
+    .logo-name {
+      font-size: 1.5rem;
+      letter-spacing: 0.2rem;
+      padding-top: 1rem;
+      font-family: $font-main;
+    }
+  }
+  .logo-name:hover {
+    color: black;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-main;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    .links {
+      margin: 0.25rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  .logo-ctner {
+    padding: 2rem 0 2rem 0;
+
+    .logo-img {
+      height: 3.5rem;
+      width: 2.5rem;
+    }
+    .logo-name {
+      font-size: 1.25rem;
+      letter-spacing: 0.2rem;
+      padding-top: 1rem;
+    }
+  }
+
+  .information {
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+    .links {
+      margin: 0 0.9rem;
+    }
   }
 }

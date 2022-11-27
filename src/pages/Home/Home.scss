@@ -2,11 +2,9 @@
 .home-container {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-top: 9rem;
 
   .home-pic {
-    margin-left: 3rem;
     height: 25rem;
     width: 25rem;
     object-fit: cover;
@@ -14,13 +12,13 @@
     animation: expand 0.8s ease forwards;
   }
   .home-contents {
-    padding: 1rem;
+    padding: 4rem;
     animation: slideUp 1s ease forwards;
 
     &__title {
       font-size: 3rem;
       font-family: $font-secondary;
-      width: 30rem;
+      width: 37rem;
       height: 3.5rem;
     }
     &__jobs {
@@ -50,5 +48,108 @@
   }
   100% {
     transform: translateX(0px);
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .home-container {
+    margin: 3rem 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    .home-pic {
+      height: 17rem;
+      width: 17rem;
+      object-fit: cover;
+      border-radius: 15rem;
+    }
+    .home-contents {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0 2rem 0;
+      margin: 0;
+
+      &__title {
+        width: 12rem;
+        height: 2rem;
+        padding: 0rem;
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      &__jobs {
+        font-size: 1rem;
+        padding: 0.7rem 0 0 0;
+        margin: 0;
+      }
+      &__slogan {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .home-container {
+    margin-top: 5rem;
+
+    .home-pic {
+      height: 15rem;
+      width: 15rem;
+      object-fit: cover;
+      border-radius: 15rem;
+    }
+    .home-contents {
+      padding: 2rem;
+
+      &__title {
+        font-size: 2rem;
+        width: 20rem;
+        height: 3rem;
+      }
+      &__jobs {
+        font-size: 1rem;
+        margin-top: 1rem;
+        font-family: $font-secondary;
+      }
+      &__slogan {
+        font-size: 0.8rem;
+        font-family: $font-secondary;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .home-container {
+    margin-top: 6rem;
+
+    .home-pic {
+      height: 15rem;
+      width: 15rem;
+      object-fit: cover;
+      border-radius: 15rem;
+    }
+    .home-contents {
+      padding: 1rem;
+
+      &__title {
+        font-size: 1.8rem;
+        font-family: $font-secondary;
+        width: 25rem;
+        height: 2.3rem;
+      }
+      &__jobs {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        font-family: $font-secondary;
+      }
+      &__slogan {
+        font-size: 0.9rem;
+        font-family: $font-secondary;
+      }
+    }
   }
 }
