@@ -10,6 +10,16 @@ export const work = [
     class: "work__desc1",
   },
   {
+    title: "Locum Pharmacist",
+    work: "General Practice",
+    date: "Jan 22 - Aug 22",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+    suscipit ab tempora in id optio ducimus exercitationem eligendi
+    accusamus, quibusdam veniam consectetur cum magnam veritatis facilis
+    nisi? Amet, eligendi sit`,
+    class: "work__desc2",
+  },
+  {
     title: "Clinical Pharmacist",
     work: "Improving Health Limited",
     date: "Mar 22 - Aug 22",
@@ -53,6 +63,16 @@ export const work = [
     title: "Magnet",
     work: "Design Sales Assistant",
     date: "Jan 20 - Jun 20",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+    suscipit ab tempora in id optio ducimus exercitationem eligendi
+    accusamus, quibusdam veniam consectetur cum magnam veritatis facilis
+    nisi? Amet, eligendi sit`,
+    class: "work__desc6",
+  },
+  {
+    title: "Vodafone",
+    work: "Customer Advisor",
+    date: "Jun 18 - Jan 19",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
     suscipit ab tempora in id optio ducimus exercitationem eligendi
     accusamus, quibusdam veniam consectetur cum magnam veritatis facilis
