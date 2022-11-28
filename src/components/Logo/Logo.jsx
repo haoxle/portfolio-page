@@ -7,30 +7,30 @@ const Logo = () => {
   return (
     <>
       <div className="logo-ctner">
-        <Link to="/">
+        <Link to="/portfolio-page">
           <img className="logo-img" src={logo} alt="logo" />
         </Link>
-        <Link to="/">
+        <Link to="/portfolio-page">
           <h1 className="logo-name">HAO LE</h1>
         </Link>
       </div>
       <div className="information">
-        <NavLink className="links" to={"/"}>
+        <NavLink className="links" to={"/portfolio-page"}>
           Home
         </NavLink>
-        <NavLink className="links" to={"/about"}>
+        <NavLink className="links" to={"/portfolio-page/about"}>
           About
         </NavLink>
-        <NavLink className="links" to={"/projects"}>
+        <NavLink className="links" to={"/portfolio-page/projects"}>
           Projects
         </NavLink>
-        <NavLink className="links" to={"/skills"}>
+        <NavLink className="links" to={"/portfolio-page/skills"}>
           Skills
         </NavLink>
-        <NavLink className="links" to={"/experience"}>
+        <NavLink className="links" to={"/portfolio-page/experience"}>
           Experience
         </NavLink>
-        <NavLink className="links" to={"/contact"}>
+        <NavLink className="links" to={"/portfolio-page/contact"}>
           Contact
         </NavLink>
       </div>

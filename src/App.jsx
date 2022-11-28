@@ -12,7 +12,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/portfolio-page"
         element={
           <>
             <Logo />
@@ -21,7 +21,7 @@ function App() {
         }
       />
       <Route
-        path="/about"
+        path="/portfolio-page/about"
         element={
           <>
             <Logo />
@@ -30,7 +30,7 @@ function App() {
         }
       />
       <Route
-        path="/projects"
+        path="/portfolio-page/projects"
         element={
           <>
             <Logo />
@@ -39,7 +39,7 @@ function App() {
         }
       />
       <Route
-        path="/skills"
+        path="/portfolio-page/skills"
         element={
           <>
             <Logo />
@@ -48,7 +48,7 @@ function App() {
         }
       />
       <Route
-        path="/experience"
+        path="/portfolio-page/experience"
         element={
           <>
             <Logo />
@@ -57,7 +57,7 @@ function App() {
         }
       />
       <Route
-        path="/contact"
+        path="/portfolio-page/contact"
         element={
           <>
             <Logo />
