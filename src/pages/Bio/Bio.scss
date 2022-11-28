@@ -9,15 +9,15 @@
   border-radius: 2rem 0 2rem 0;
 
   .profile_picture {
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 17rem;
     border-radius: 2rem;
     align-self: center;
   }
   .profile_description {
     padding: 1rem 1rem 1rem 4rem;
     font-family: $font-secondary;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 0.05rem;
     background-color: transparent;
     color: #545e56;
@@ -37,7 +37,7 @@
   }
 }
 .hobbies {
-  margin: 2rem 3rem 2rem 3rem;
+  margin: 0 4rem 0 4rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -45,8 +45,8 @@
     position: relative;
     margin-top: 3rem;
     .container__image {
-      height: 22rem;
-      width: 25rem;
+      height: 30rem;
+      width: 30rem;
       object-fit: cover;
       opacity: 1;
       display: block;
@@ -59,7 +59,7 @@
       opacity: 0;
       position: absolute;
       top: 10rem;
-      left: 12.5rem;
+      left: 13.5rem;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-40%, -50%);
       background-color: transparent;
@@ -67,7 +67,7 @@
       text-align: center;
       .container__text--info {
         color: black;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         width: 17rem;
         height: 14rem;
         background-color: none;
@@ -83,4 +83,149 @@
 
 .container:hover .container__text {
   opacity: 1;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 4rem 4rem 2rem 4rem;
+    background-color: #bcd8c1;
+    border-radius: 2rem 0 2rem 0;
+
+    .profile_picture {
+      height: 15rem;
+      width: 10rem;
+      border-radius: 2rem;
+    }
+    .profile_description {
+      padding: 2rem 0 0 0rem;
+      margin: 0;
+      font-size: 0.9rem;
+      letter-spacing: 0.01rem;
+      word-spacing: 0.1rem;
+    }
+  }
+  .extracuricular {
+    margin-top: 5rem;
+    &__title {
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+  .hobbies {
+    margin: 0 4rem 0 4rem;
+    .container {
+      position: relative;
+      margin-top: 3rem;
+      .container__image {
+        height: 17rem;
+        width: 17rem;
+      }
+      .container__text {
+        top: 10rem;
+        left: 8.5rem;
+        .container__text--info {
+          font-size: 1.2rem;
+          width: 15rem;
+          height: 14rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1300px) {
+  .profile {
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 4rem 4rem 2rem 4rem;
+    border-radius: 2rem 0 2rem 0;
+
+    .profile_picture {
+      height: 15rem;
+      width: 10rem;
+      border-radius: 2rem;
+    }
+    .profile_description {
+      padding: 1rem 1rem 1rem 4rem;
+      font-size: 1rem;
+      letter-spacing: 0.05rem;
+      word-spacing: 0.5rem;
+    }
+  }
+  .extracuricular {
+    margin-top: 5rem;
+    &__title {
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+  .hobbies {
+    margin: 0 4rem 0 4rem;
+    .container {
+      position: relative;
+      margin-top: 3rem;
+      .container__image {
+        height: 22rem;
+        width: 22rem;
+      }
+      .container__text {
+        top: 10rem;
+        left: 11.5rem;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-40%, -50%);
+        .container__text--info {
+          font-size: 1.5rem;
+          width: 17rem;
+          height: 14rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 2060px) {
+  .profile {
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 4rem 4rem 2rem 4rem;
+    border-radius: 2rem 0 2rem 0;
+
+    .profile_picture {
+      height: 15rem;
+      width: 10rem;
+      border-radius: 2rem;
+    }
+    .profile_description {
+      padding: 1rem 1rem 1rem 4rem;
+      font-size: 1.25rem;
+      letter-spacing: 0.05rem;
+      word-spacing: 0.5rem;
+    }
+  }
+  .extracuricular {
+    margin-top: 5rem;
+    &__title {
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+  .hobbies {
+    margin: 0 4rem 0 4rem;
+    .container {
+      position: relative;
+      margin-top: 3rem;
+      .container__image {
+        height: 25rem;
+        width: 25rem;
+      }
+      .container__text {
+        .container__text--info {
+          font-size: 1.5rem;
+          width: 17rem;
+          height: 14rem;
+        }
+      }
+    }
+  }
 }
