@@ -6,7 +6,7 @@
   padding: 8rem 5rem 4rem 5rem;
 
   .skills-section {
-    padding: 1rem;
+    padding: 2rem;
     margin: 0.25rem;
 
     display: flex;
@@ -19,12 +19,12 @@
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     .skills-section__image {
-      height: 5rem;
-      width: 5rem;
+      height: 7rem;
+      width: 7rem;
     }
     .skills-section__name {
       margin-top: 0.5rem;
-      font-size: 1rem;
+      font-size: 1.3rem;
       font-family: $font-secondary;
     }
   }
@@ -73,12 +73,4 @@
   100% {
     opacity: 1;
   }
-}
-
-@media screen and (min-width: 0px) and (max-width: 599px) {
-}
-@media screen and (min-width: 600px) and (max-width: 768px) {
-}
-
-@media screen and (min-width: 769px) and (max-width: 1280px) {
 }
