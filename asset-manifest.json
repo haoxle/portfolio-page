@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.02787551.css",
-    "main.js": "/portfolio-page/static/js/main.daafc213.js",
+    "main.css": "/portfolio-page/static/css/main.7cf9dca1.css",
+    "main.js": "/portfolio-page/static/js/main.79943c4a.js",
     "static/js/787.28a6522c.chunk.js": "/portfolio-page/static/js/787.28a6522c.chunk.js",
     "static/media/maple.png": "/portfolio-page/static/media/maple.fe20eba0edfe9348e2f7.png",
     "static/media/punk.png": "/portfolio-page/static/media/punk.2bf3caf5cab270199f62.png",
@@ -12,6 +12,7 @@
     "static/media/pottery.jpg": "/portfolio-page/static/media/pottery.ee917b91c2a86e118fca.jpg",
     "static/media/candle.jpg": "/portfolio-page/static/media/candle.50500a960d4c3cf58c21.jpg",
     "static/media/profile.jpg": "/portfolio-page/static/media/profile.5c0f89b7e72c87314fee.jpg",
+    "static/media/byHaowl.png": "/portfolio-page/static/media/byHaowl.b2985be7b43ce04aea42.png",
     "static/media/hangman.png": "/portfolio-page/static/media/hangman.4d305572bfcef1a92d74.png",
     "static/media/synergy.png": "/portfolio-page/static/media/synergy.d77ce0321e73015ec13a.png",
     "static/media/baking.JPG": "/portfolio-page/static/media/baking.35b205c06db7dcce4431.JPG",
@@ -24,6 +25,7 @@
     "static/media/java.png": "/portfolio-page/static/media/java.aaaa73f637215f4d6333.png",
     "static/media/jest.png": "/portfolio-page/static/media/jest.b7cd5a617c3a2e926a77.png",
     "static/media/sass.png": "/portfolio-page/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/mysql.png": "/portfolio-page/static/media/mysql.09711f39cec176c31993.png",
     "static/media/mentor.png": "/portfolio-page/static/media/mentor.87e62a576df93034a0c5.png",
     "static/media/javascript.png": "/portfolio-page/static/media/javascript.38323140666580081f57.png",
     "static/media/springboot.png": "/portfolio-page/static/media/springboot.cb6649b2a171782e6d8e.png",
@@ -36,12 +38,12 @@
     "static/media/word.png": "/portfolio-page/static/media/word.3520590ca5c0502f023d.png",
     "static/media/powerpoint.png": "/portfolio-page/static/media/powerpoint.d292af7cfb908a435b94.png",
     "index.html": "/portfolio-page/index.html",
-    "main.02787551.css.map": "/portfolio-page/static/css/main.02787551.css.map",
-    "main.daafc213.js.map": "/portfolio-page/static/js/main.daafc213.js.map",
+    "main.7cf9dca1.css.map": "/portfolio-page/static/css/main.7cf9dca1.css.map",
+    "main.79943c4a.js.map": "/portfolio-page/static/js/main.79943c4a.js.map",
     "787.28a6522c.chunk.js.map": "/portfolio-page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02787551.css",
-    "static/js/main.daafc213.js"
+    "static/css/main.7cf9dca1.css",
+    "static/js/main.79943c4a.js"
   ]
 }
