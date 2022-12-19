@@ -9,16 +9,53 @@ import javascript from "../../assets/logos/javascript.png";
 import react from "../../assets/logos/react.png";
 import sass from "../../assets/logos/sass.png";
 import jest from "../../assets/logos/jest.png";
-// import springboot from "../../assets/logos/springboot.png";
+import springboot from "../../assets/logos/springboot.png";
 import punk from "../../assets/punk.png";
 import synergy from "../../assets/synergy.png";
 import maple from "../../assets/maple.png";
 import calculator from "../../assets/calculator.png";
 import hangman from "../../assets/hangman.png";
-
+import mySQL from "../../assets/logos/mysql.png";
+import byHaowl from "../../assets/byHaowl.png";
 const Projects = () => {
   return (
     <>
+      <section>
+        <div className="right">
+          <div className="right-contents">
+            <h1 className="right-name"> ByHaowl</h1>
+            <p className="right-info">
+              Full stack project using mySQL, springboot, java and react. I
+              created an e-commerce website selling my candles and ceramics.
+              Within this project, I got to implement my knowledge on creating
+              databases and implemented useContext to create functionality to
+              the shopping basket. You can check my repo by clicking on the
+              image!
+            </p>
+            <div className="right-skills">
+              <img className="skills-image" src={java} alt="java" />
+              <img className="skills-image" src={github} alt="github" />
+              <img className="skills-image" src={react} alt="react" />
+              <img className="skills-image" src={springboot} alt="springboot" />
+              <img className="skills-image" src={mySQL} alt="mysql" />
+              <img className="skills-image" src={github} alt="github" />
+            </div>
+          </div>
+          <div className="right-project">
+            <a
+              href="https://github.com/haoxle/byhaowl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="right-project__image"
+                src={byHaowl}
+                alt="byHaowl"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="left">
           <div className="left-project">

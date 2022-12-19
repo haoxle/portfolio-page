@@ -1,5 +1,10 @@
 export const images = [
   {
+    id: 21,
+    name: "mySQL",
+    src: require("../assets/logos/mysql.png"),
+  },
+  {
     id: 1,
     name: "Figma",
     src: require("../assets/logos/figma.png"),

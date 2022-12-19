@@ -12,11 +12,19 @@ const Experience = () => {
       </>
     );
   });
+
   const workExperience2 = work.map((job, i) => {
+    const descriptionLine = job.description.map((line) => {
+      return (
+        <ul className="work__desc__list">
+          <li className="work__desc"> {line}</li>
+        </ul>
+      );
+    });
     return (
       <>
         <div className="description">
-          <div className="work__desc"> {job.description}</div>
+          <p className="work__desc">{descriptionLine}</p>
         </div>
       </>
     );
