@@ -3,7 +3,7 @@
   display: flex;
   margin: 8rem 7rem 7rem 7rem;
   .left-project__image {
-    height: 15rem;
+    height: 20rem;
     opacity: 0.5;
     z-index: 1;
     transition: 0.5s;
@@ -13,16 +13,16 @@
     transition: 0.5s;
   }
   .left-contents {
-    width: 20rem;
+    width: 30rem;
     .left-name {
       font-family: $font-main;
-      font-size: 1.5rem;
+      font-size: 2rem;
       letter-spacing: 0.1rem;
       padding: 0.5rem 0rem 0.7rem 2rem;
     }
     .left-info {
       font-family: $font-secondary;
-      font-size: 1rem;
+      font-size: 1.5rem;
       background-color: #a76d60;
       margin: 0 0 0.7rem -4rem;
       padding: 1rem 1.5rem;
@@ -58,7 +58,7 @@
   justify-content: flex-end;
   margin: 7rem;
   .right-project__image {
-    height: 13rem;
+    height: 20rem;
     opacity: 0.5;
     z-index: 1;
     transition: 0.5s;
@@ -68,16 +68,16 @@
     transition: 0.5s;
   }
   .right-contents {
-    width: 20rem;
+    width: 30rem;
     .right-name {
       font-family: $font-main;
-      font-size: 1.5rem;
+      font-size: 2rem;
       letter-spacing: 0.1rem;
       padding: 0.5rem 0rem 0.7rem 10rem;
     }
     .right-info {
       font-family: $font-secondary;
-      font-size: 1rem;
+      font-size: 1.5rem;
       background-color: #a76d60;
       margin: 0 -2.5rem 0.7rem -3rem;
       padding: 1rem 1.5rem;
@@ -106,10 +106,222 @@
     }
   }
 }
-@media screen and (min-width: 0px) and (max-width: 599px) {
-}
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .left {
+    display: flex;
+    margin: 8rem 7rem 7rem 7rem;
+    .left-project__image {
+      height: 10rem;
+      opacity: 0.5;
+      z-index: 1;
+      transition: 0.5s;
+    }
+    .left-project__image:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    .left-contents {
+      width: 20rem;
+      .left-name {
+        font-family: $font-main;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        padding: 0.5rem 0rem 0.7rem 5rem;
+      }
+      .left-info {
+        font-family: $font-secondary;
+        font-size: 0.7rem;
+        background-color: #a76d60;
+        margin: 0 0 0.7rem -1rem;
+        padding: 1rem 1.5rem;
+        color: white;
+        position: relative;
+        z-index: 999;
+        border-radius: 0 3rem 3rem 0;
+        text-align: justify;
+      }
+    }
+    .left-skills {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: -2rem;
+      position: relative;
+      z-index: 999;
+      background-color: transparent;
+      width: auto;
+      height: 1.5rem;
+      .skills-image {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1rem;
+        background-color: transparent;
+        background-size: cover;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 7rem;
+    .right-project__image {
+      height: 10rem;
+      opacity: 0.5;
+      z-index: 1;
+      transition: 0.5s;
+    }
+    .right-project__image:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    .right-contents {
+      width: 15rem;
+      .right-name {
+        font-family: $font-main;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        padding: 0.5rem 0rem 0.7rem 0rem;
+      }
+      .right-info {
+        font-family: $font-secondary;
+        font-size: 0.7rem;
+        background-color: #a76d60;
+        margin: 0 -1.5rem 0.7rem -3rem;
+        padding: 1rem 1.5rem;
+        color: white;
+        position: relative;
+        z-index: 999;
+        border-radius: 3rem 0 0 3rem;
+        text-align: justify;
+      }
+    }
+    .right-skills {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-left: -2rem;
+      position: relative;
+      z-index: 999;
+      background-color: transparent;
+      width: auto;
+      height: 2.5rem;
+      .skills-image {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1rem;
+        background-color: transparent;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+  .left {
+    display: flex;
+    margin: 8rem 7rem 7rem 7rem;
+    .left-project__image {
+      height: 15rem;
+      opacity: 0.5;
+      z-index: 1;
+      transition: 0.5s;
+    }
+    .left-project__image:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    .left-contents {
+      width: 20rem;
+      .left-name {
+        font-family: $font-main;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        padding: 0.5rem 0rem 0.7rem 2rem;
+      }
+      .left-info {
+        font-family: $font-secondary;
+        font-size: 1rem;
+        background-color: #a76d60;
+        margin: 0 0 0.7rem -4rem;
+        padding: 1rem 1.5rem;
+        color: white;
+        position: relative;
+        z-index: 999;
+        border-radius: 0 3rem 3rem 0;
+        text-align: justify;
+      }
+    }
+    .left-skills {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: -2rem;
+      position: relative;
+      z-index: 999;
+      background-color: transparent;
+      width: auto;
+      height: 2.5rem;
+      .skills-image {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1rem;
+        background-color: transparent;
+        background-size: cover;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 7rem;
+    .right-project__image {
+      height: 13rem;
+      opacity: 0.5;
+      z-index: 1;
+      transition: 0.5s;
+    }
+    .right-project__image:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    .right-contents {
+      width: 20rem;
+      .right-name {
+        font-family: $font-main;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        padding: 0.5rem 0rem 0.7rem 10rem;
+      }
+      .right-info {
+        font-family: $font-secondary;
+        font-size: 1rem;
+        background-color: #a76d60;
+        margin: 0 -2.5rem 0.7rem -3rem;
+        padding: 1rem 1.5rem;
+        color: white;
+        position: relative;
+        z-index: 999;
+        border-radius: 3rem 0 0 3rem;
+        text-align: justify;
+      }
+    }
+    .right-skills {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-left: -2rem;
+      position: relative;
+      z-index: 999;
+      background-color: transparent;
+      width: auto;
+      height: 2.5rem;
+      .skills-image {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1rem;
+        background-color: transparent;
+      }
+    }
+  }
 }
