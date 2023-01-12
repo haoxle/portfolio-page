@@ -17,9 +17,76 @@ import calculator from "../../assets/calculator.png";
 import hangman from "../../assets/hangman.png";
 import mySQL from "../../assets/logos/mysql.png";
 import byHaowl from "../../assets/byHaowl.png";
+import library from "../../assets/library.png";
+import weather from "../../assets/weather.png";
+
 const Projects = () => {
   return (
     <>
+      <section>
+        <div className="right">
+          <div className="right-contents">
+            <h1 className="right-name"> Library Manager</h1>
+            <p className="right-info">
+              Java project creating a library management system. CSV file is
+              used and converted to JSON and updated. User can create an
+              account, see books available, loan and return books. This Java
+              project reconsolidated learnt knowledge during my course and I was
+              able to develop a stronger understanding on using object
+              orientated language.
+            </p>
+            <div className="right-skills">
+              <img className="skills-image" src={java} alt="java" />
+              <img className="skills-image" src={github} alt="github" />
+            </div>
+          </div>
+          <div className="right-project">
+            <a
+              href="https://github.com/haoxle/library"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="right-project__image"
+                src={library}
+                alt="byHaowl"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="left">
+          <div className="left-project">
+            <a
+              href="https://haoxle.github.io/weather-app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="left-project__image"
+                src={weather}
+                alt="weather-app"
+                rel="noreferrer"
+              />
+            </a>
+          </div>
+          <div className="left-contents">
+            <h1 className="left-name">Widget App</h1>
+            <p className="left-info">
+              Front end project creating a weather app and a todo list. This
+              allowed me to further improve on my knowledge of syncronous and
+              asyncronous functions.
+            </p>
+            <div className="left-skills">
+              <img className="skills-image" src={github} alt="github" />
+              <img className="skills-image" src={javascript} alt="javascript" />
+              <img className="skills-image" src={react} alt="react" />
+              <img className="skills-image" src={sass} alt="sass" />
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="right">
           <div className="right-contents">
